@@ -68,6 +68,9 @@ Academics who are new to programming should invest time in learning Git because 
 
 7. Click "Initialize a Repository."
     - This will create a new Git repository in your "hello_world" folder.
+<p align="center">
+    <img align="center" src="img/initialize-a-repository.png" width="60%">
+</p>
 
 8. Confirm that you want to initialize the "hello_world" directory by clicking "Yes."
 <p align="center">
