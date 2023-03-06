@@ -43,7 +43,7 @@ Academics who are new to programming should invest time in learning Git because 
     <img align="center" src="img/file-browser.png" width="60%">
 </p>
 
-3. Right-click in the File Browser window and click "New Folder."
+3. Right-click in the File Browser window and click "New Folder"
     - This will create a new folder where you can store your project files.
 <p align="center">
     <img align="center" src="img/new-folder.png" width="60%">
@@ -97,28 +97,69 @@ Academics who are new to programming should invest time in learning Git because 
         - **Staged** changes are like the objects or people you've captured in your photograph and are now ready to develop. You've taken the picture and it's saved on your camera's memory card, waiting for you to develop it in the darkroom or edit it on your computer. Similarly, staged changes are changes that you've added to the Git staging area and are ready to be committed to the repository.
  
 
-### Using the Jupyter Notebook plugin to run Git commands
+## Git Workflow
+### Adding files to the repository
+1. Press `ctrl + shift + F` to open the File Browser
+<p align="center">
+    <img align="center" src="img/file-browser.png" width="60%">
+</p>
 
-### Git Workflow
-    - Checking the status of your repository
-    - Adding files to the repository
-    - Ignoring files
-    - Committing changes
-    - Viewing commit history
-    - Undoing changes
-    - Using the Jupyter Notebook plugin to manage Git workflow
+2. Right-click in the File Browser window and click "New File"
+<p align="center">
+    <img align="center" src="img/new-file.png" width="60%">
+</p>
 
-### Collaborating
+3. Create a file named "data.txt"
+<p align="center">
+    <img align="center" src="img/data-file.png" width="60%">
+</p>
+
+4. Click on the "Git" plugin in the left-hand menu, you should see that "data.txt" file is now listed as an untracked file.
+    - This means that Git is aware of the file's existence, but it is not yet being tracked for changes.
+<p align="center">
+    <img align="center" src="img/untracked-data-file.png" width="60%">
+</p>
+
+6. To start tracking changes to "data.txt", right-click on the file and click "Track".
+    - This will add the file to the staging area and prepare it for the next commit.
+<p align="center">
+    <img align="center" src="img/track-data-file.png" width="60%">
+</p>
+
+### Committing changes
+
+1. Click the "Changes" tab in the Git plugin.
+<p align="center">
+    <img align="center" src="img/changes-tab.png" width="60%">
+</p>
+
+2. Review the changes listed under the "Staged" section. 
+    - These are changes that have been added to the staging area and are ready to be committed.
+
+3. In the "Commit" section, enter a commit message that describes the changes you are making.
+<p align="center">
+    <img align="center" src="img/commit.png" width="60%">
+</p>
+
+4. Click "Commit". 
+    - This will save the changes you have staged in the previous step to your local Git repository.
+
+
+### Viewing commit history
+### Ignoring files
+### Undoing changes
+
+## Collaborating
     - Cloning a repository
     - Pushing changes to a remote repository
     - Pulling changes from a remote repository
     - Resolving merge conflicts
     - Using the Jupyter Notebook plugin to collaborate with others
 
-### Branches and Tags
+## Branches and Tags
 
-###  DOI Referencing 
+##  DOI Referencing 
 
-### Conclusion and Further Resources
+## Conclusion and Further Resources
     - Recap of the benefits of using version control
     - Additional resources for learning more about Git and version control
