@@ -68,11 +68,13 @@ Academics who are new to programming should invest time in learning Git because 
 
 7. Click "Initialize a Repository."
     - This will create a new Git repository in your "hello_world" folder.
+    - Initializing a repository is an important step in version control with Git. By initializing a repository, you are essentially telling Git to start tracking changes to your files and directories within that repository.
 <p align="center">
     <img align="center" src="img/initialize-a-repository.png" width="60%">
 </p>
 
 8. Confirm that you want to initialize the "hello_world" directory by clicking "Yes."
+    - When you initialize a repository, Git will create a hidden directory named ".git" within your "hello_world" folder. This directory contains all of the metadata that Git uses to track changes and manage the repository.
 <p align="center">
     <img align="center" src="img/initialized-repository.png" width="60%">
 </p>
