@@ -164,6 +164,31 @@ Academics who are new to programming should invest time in learning Git because 
     - Need to fix
 
 ### Ignoring files
+
+1. Create a new file in your project directory and name it ".gitignore". Note that the filename starts with a period (".") and has no file extension.
+
+2. Open the ".gitignore" file in a text editor.
+
+3. Add the names of files or directories that you want to ignore, each on a new line. For example, if you want to ignore a file called "config.ini", add the following line to your .gitignore file: config.ini
+
+4. Save the ".gitignore" file and exit the text editor.
+
+5. Open the Git plugin in the left-hand menu of Jupyter Notebook.
+
+6. Click the "Changes" tab in the Git plugin.
+
+7. You should see your ".gitignore" file listed under the "Untracked Files" section.
+
+8. Right-click on the ".gitignore" file and select "Track".
+
+9. You should now see the ".gitignore" file listed under the "Staged Changes" section.
+
+10.Enter a commit message that describes the changes you are making in the "Commit" section.
+
+11. Click "Commit" to save the changes to your local Git repository.
+
+In summary, ignoring files in Git involves creating a ".gitignore" file in your project directory, adding the names of files or directories that you want to ignore to this file, and then committing the changes to your local repository.
+
 ### Undoing changes
 
 ## Collaborating
