@@ -25,7 +25,7 @@ Academics who are new to programming should invest time in learning Git because 
 1. Open [Jupyter Notebook](https://jupyter.bangor.ac.uk/jupyter) in your browser.
     - Jupyter Notebook is a web-based interactive development environment (IDE) that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
 
-2. Press ctrl + shift + F to open the File Browser.
+2. Press `ctrl + shift + F` to open the File Browser.
     - The File Browser is where you can navigate and manage files and folders on your system.
 
 3. Right-click in the File Browser window and click "New Folder."
@@ -44,11 +44,24 @@ Academics who are new to programming should invest time in learning Git because 
 
 8. Confirm that you want to initialize the "hello_world" directory by clicking "Yes."
 
-- Adding files to the repository
-- Using the Jupyter Notebook plugin to run Git commands
+### Git Plugin View
+
+1. **Current Repository** and **Current Branch**
+    - This tab displays the current Git repository and branch that you are working with in Jupyter Notebook.
+    - This information can be useful when working with multiple repositories or branches, as it helps you keep track of which one you are currently working on.
+
+2. **Changes**
+    - This tab displays the changes that have been made to files in the current Git repository.
+    - The changes are grouped into three categories: "**Staged**," "**Changed**," and "**Untracked**."
+        - **Staged** changes are changes that have been added to the Git staging area and are ready to be committed.
+        - **Changed** changes are changes that have been made to files but have not yet been added to the staging area.
+        - **Untracked** changes are changes that have been made to files that are not yet being tracked by Git.
+
+### Using the Jupyter Notebook plugin to run Git commands
 
 3. Basic Git Workflow with Jupyter Notebook
 - Checking the status of your repository
+- Adding files to the repository
 - Committing changes
 - Viewing commit history
 - Undoing changes
