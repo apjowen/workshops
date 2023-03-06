@@ -143,7 +143,9 @@ Academics who are new to programming should invest time in learning Git because 
 
 4. Click "Commit". 
     - This will save the changes you have staged in the previous step to your local Git repository.
-
+<p align="center">
+    <img align="center" src="img/committed-changes.png" width="60%">
+</p>
 
 ### Viewing commit history
 ### Ignoring files
