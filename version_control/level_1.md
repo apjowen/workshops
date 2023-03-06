@@ -88,9 +88,14 @@ Academics who are new to programming should invest time in learning Git because 
 2. **Changes**
     - This tab displays the changes that have been made to files in the current Git repository.
     - The changes are grouped into three categories: "**Staged**," "**Changed**," and "**Untracked**."
-        - **Staged** changes are changes that have been added to the Git staging area and are ready to be committed.
-        - **Changed** changes are changes that have been made to files but have not yet been added to the staging area.
-        - **Untracked** changes are changes that have been made to files that are not yet being tracked by Git.
+    - Imagine you're a photographer taking a picture. Your camera represents Git, and the photograph you're taking represents the changes you're making to your project.
+
+        - **Untracked** changes are like the objects or people you haven't yet included in your photograph. They may be around you and part of the scene, but you haven't consciously decided to include them in your composition yet. Similarly, untracked changes are changes that you've made to your project, but Git isn't yet aware of them and they're not being tracked.
+
+        - **Changed** changes are like the objects or people you've decided to include in your photograph. You've made a conscious decision to include them, and you've adjusted the camera settings and composition to make sure they're captured in the way you want. Similarly, changed changes are changes that Git is aware of, but you haven't yet added them to the staging area.
+
+        - **Staged** changes are like the objects or people you've captured in your photograph and are now ready to develop. You've taken the picture and it's saved on your camera's memory card, waiting for you to develop it in the darkroom or edit it on your computer. Similarly, staged changes are changes that you've added to the Git staging area and are ready to be committed to the repository.
+ 
 
 ### Using the Jupyter Notebook plugin to run Git commands
 
