@@ -8,7 +8,7 @@
 - [Branches and Tags](branches-and-tags)
 - [DOI Referencing](#doi-referencing)
 - [Conclusion and Further Resources](#conclusion-and-further-resources)
-- 
+
 ## Introduction to Version Control
 
 ### What is version control?
