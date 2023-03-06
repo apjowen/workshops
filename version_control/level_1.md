@@ -5,7 +5,7 @@
 - [Getting Started](#getting-started)
 - [Git Workflow](#git-workflow)
 - [Collaborating](#collaborating)
-- [Branches and Tags](branches-and-tags)
+- [Branches and Tags](#branches-and-tags)
 - [DOI Referencing](#doi-referencing)
 - [Conclusion and Further Resources](#conclusion-and-further-resources)
 
