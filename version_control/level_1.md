@@ -22,7 +22,7 @@ Academics who are new to programming should invest time in learning Git because 
 
 ### Creating a Git repository
 
-1. Open Jupyter Notebook in your browser.
+1. Open [Jupyter Notebook](https://jupyter.bangor.ac.uk/jupyter) in your browser.
     - Jupyter Notebook is a web-based interactive development environment (IDE) that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
 
 2. Press ctrl + shift + F to open the File Browser.
