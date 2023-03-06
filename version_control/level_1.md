@@ -148,6 +148,21 @@ Academics who are new to programming should invest time in learning Git because 
 </p>
 
 ### Viewing commit history
+
+1. Click the "History" tab in the Git plugin.
+    - You should see a list of commits, with the most recent one at the top.
+<p align="center">
+    <img align="center" src="img/history-tab.png" width="60%">
+</p>
+
+2. Click on a commit to view more details about it, such as the commit message, the author, and the date and time it was committed.
+<p align="center">
+    <img align="center" src="img/history-detail.png" width="60%">
+</p>
+
+3. You can also click on the "data.txt" file to see the differences between the files in the current commit and the previous one.
+    - Need to fix
+
 ### Ignoring files
 ### Undoing changes
 
