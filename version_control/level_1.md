@@ -1,5 +1,14 @@
 # Version Control (Level 1)
 
+## Contents
+- [Introduction to Version Control](#introduction-to-version-control)
+- [Getting Started](#getting-started)
+- [Git Workflow](#git-workflow)
+- [Collaborating](#collaborating)
+- [Branches and Tags](branches-and-tags)
+- [DOI Referencing](#doi-referencing)
+- [Conclusion and Further Resources](#conclusion-and-further-resources)
+- 
 ## Introduction to Version Control
 
 ### What is version control?
@@ -18,7 +27,7 @@ Here are some of the benefits of using version control with Git:
 
 Academics who are new to programming should invest time in learning Git because it is an essential tool for anyone working with code. It will help you to collaborate more effectively with others, keep a complete history of changes to your codebase, work on new features without affecting the main codebase, and provide a reliable backup system for your code. With Git, you can focus on your research and experiments, confident that your code is well-organised, well-documented, and easy to manage.
 
-## Getting Started with Git and Jupyter Notebook
+## Getting Started
 
 ### Creating a Git repository
 
@@ -59,27 +68,26 @@ Academics who are new to programming should invest time in learning Git because 
 
 ### Using the Jupyter Notebook plugin to run Git commands
 
-3. Basic Git Workflow with Jupyter Notebook
-- Checking the status of your repository
-- Adding files to the repository
-- Committing changes
-- Viewing commit history
-- Undoing changes
-- Using the Jupyter Notebook plugin to manage Git workflow
+### Git Workflow
+    - Checking the status of your repository
+    - Adding files to the repository
+    - Ignoring files
+    - Committing changes
+    - Viewing commit history
+    - Undoing changes
+    - Using the Jupyter Notebook plugin to manage Git workflow
 
-4. Collaborating with Git and Jupyter Notebook
-- Cloning a repository
-- Pushing changes to a remote repository
-- Pulling changes from a remote repository
-- Resolving merge conflicts
-- Using the Jupyter Notebook plugin to collaborate with others
+### Collaborating
+    - Cloning a repository
+    - Pushing changes to a remote repository
+    - Pulling changes from a remote repository
+    - Resolving merge conflicts
+    - Using the Jupyter Notebook plugin to collaborate with others
 
-5. Using Git with Jupyter Notebooks and Jupyter GitHub Plugin
-- Installing the Git and Jupyter GitHub plugins
-- Using the Git extension to track changes in Jupyter Notebooks
-- Using the Jupyter GitHub plugin to manage GitHub repositories
+### Branches and Tags
 
-7. Github
-9. Conclusion and Further Resources
-- Recap of the benefits of using version control
-- Additional resources for learning more about Git and version control
+###  DOI Referencing 
+
+### Conclusion and Further Resources
+    - Recap of the benefits of using version control
+    - Additional resources for learning more about Git and version control
