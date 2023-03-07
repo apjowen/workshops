@@ -114,7 +114,7 @@ Tracking files is an important step in the Git workflow because it allows you to
 6. Enter a commit message that describes the changes you are making in the "Commit" section.
 
 <p align="center">
-    <img align="center" src="img/data-file-changed-commmit-message.png" width="60%">
+    <img align="center" src="img/data-file-changed-commit-message.png" width="60%">
 </p> 
 
 7. Click "Commit" to save the changes to your local Git repository.
