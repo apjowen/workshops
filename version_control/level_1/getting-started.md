@@ -8,7 +8,7 @@
     <img align="center" src="img/jupyterhub-login.png" width="60%">
 </p>
 
-2. Press `ctrl + shift + F` to open the File Browser.
+2. Press `ctrl + shift + F` (Windows) to open the File Browser.
     - The File Browser is where you can navigate and manage files and folders on your system.
 <p align="center">
     <img align="center" src="img/file-browser.png" width="60%">
@@ -49,3 +49,21 @@
 <p align="center">
     <img align="center" src="img/initialized-repository.png" width="60%">
 </p>
+
+### Git Plugin View
+
+1. **Current Repository** and **Current Branch**
+    - This tab displays the current Git repository and branch that you are working with in Jupyter Notebook.
+    - This information can be useful when working with multiple repositories or branches, as it helps you keep track of which one you are currently working on.
+
+2. **Changes**
+    - This tab displays the changes that have been made to files in the current Git repository.
+    - The changes are grouped into three categories: "**Staged**," "**Changed**," and "**Untracked**."
+    - Imagine you're a photographer taking a picture. Your camera represents Git, and the photograph you're taking represents the changes you're making to your project.
+
+        - **Untracked** changes are like the objects or people you haven't yet included in your photograph. They may be around you and part of the scene, but you haven't consciously decided to include them in your composition yet. Similarly, untracked changes are changes that you've made to your project, but Git isn't yet aware of them and they're not being tracked.
+
+        - **Changed** changes are like the objects or people you've decided to include in your photograph. You've made a conscious decision to include them, and you've adjusted the camera settings and composition to make sure they're captured in the way you want. Similarly, changed changes are changes that Git is aware of, but you haven't yet added them to the staging area.
+
+        - **Staged** changes are like the objects or people you've captured in your photograph and are now ready to develop. You've taken the picture and it's saved on your camera's memory card, waiting for you to develop it in the darkroom or edit it on your computer. Similarly, staged changes are changes that you've added to the Git staging area and are ready to be committed to the repository.
+ 
