@@ -21,7 +21,7 @@
     <img align="center" src="img/sample-data.png" width="60%">
 </p>
 
-4. Click on the "Git" plugin in the left-hand menu, you should see that "data.txt" file is now listed as an untracked file.
+5. Click on the "Git" plugin in the left-hand menu, you should see that "data.txt" file is now listed as an untracked file.
     - This means that Git is aware of the file's existence, but it is not yet being tracked for changes.
 <p align="center">
     <img align="center" src="img/untracked-data-file.png" width="60%">
@@ -32,6 +32,10 @@
 <p align="center">
     <img align="center" src="img/track-data-file.png" width="60%">
 </p>
+
+**Summary**
+
+You have successfully created a new file named "data.txt" and added some text to it. You have also started tracking changes to the file by adding it to the staging area in Git. This means that any changes you make to the file in the future will be tracked and you can use Git to manage those changes.
 
 ### Committing changes
 
@@ -67,11 +71,9 @@
     <img align="center" src="img/history-detail.png" width="60%">
 </p>
 
-3. You can also click on the "data.txt" file to see the differences between the files in the current commit and the previous one.
-    - Need to fix
   
 ### Add changes
-1. Press `ctrl + shift + F`(Windows) to open the File Browser and double click the "hello_world" directory.
+1. Press `ctrl + shift + F`(Windows) to open the File Browser and double-click on the "hello_world" directory.
 <p align="center">
     <img align="center" src="img/hello-world-dir-changes.png" width="60%">
 </p>
@@ -81,7 +83,22 @@
     <img align="center" src="img/data-file-updated.png" width="60%">
 </p>
 
+3. Click on the "Git" plugin in the left-hand menu and select the "Changes" tab. Here, you will see that "data.txt" is now listed under the "changed" tab.
+<p align="center">
+    <img align="center" src="img/data-file-modified.png" width="60%">
+</p>
 
+4. Right-click on the "data.txt" file and click "Diff" to see the changes you made to the file. 
+    - You can toggle the Git plugin tab by clicking the icon to make more screen space.
+<p align="center">
+    <img align="center" src="img/data-file-diff.png" width="60%">
+</p> 
+
+5. If you are happy with the changes, right-click the "data.txt" file and click "Stage". 
+    - This will add the file to the staging area, ready for the next commit.
+<p align="center">
+    <img align="center" src="img/data-file-stage.png" width="60%">
+</p> 
 
 
 ### Ignoring files
