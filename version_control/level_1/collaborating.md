@@ -1,5 +1,12 @@
 ## Collaborating
 
+1. Overview
+2. Create a Github account
+3. Connect local git repository to remote (Github) git repository
+4. Push (upload) changes to Github
+5. Pull (Donwload) changes from Github
+
+### Overview
 Version control is useful because it allows you to keep track of changes to your code over time. This is particularly important when collaborating with others, as it enables multiple people to work on the same codebase without overwriting each other's changes.
 
 One popular version control system is Git, which is designed to be lightweight and easy to use. Git allows you to create a local repository on your computer, where you can track changes to your code, and then push those changes to a remote repository, such as GitHub, where you can collaborate with others.
@@ -15,15 +22,19 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 2. Click the "Sign up" button in the top right corner of the page.
 
-3. Enter your desired username, email address, and password.
+3. Enter your desired email address, password and username.
 
 4. Click the "Create account" button.
 
-5. GitHub will then ask you to choose a plan. Select the "Free" plan.
+5. Verify account by entering the 8 digit code sent to your email address.
 
-6. Choose your personal preferences (if any), and click the "Complete setup" button.
+7. Once you have verified your account you will be taken to your GitHub dashboard.
 
-7. You will be taken to your GitHub dashboard. To create a new repository, click the green "New" button on the left-hand side of the page.
+### Connect local git repository to remote (Github) git repository
+
+**Create a remote remote (Github) git repository**
+
+1. To create a new repository on Github, click the green "New" button on the left-hand side of Github Dashboard.
 
 8. Give your repository a name and a brief description.
 
@@ -33,9 +44,10 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 11. Click the "Create repository" button.
 
+**Connect local git repository**
 
-###  Add remote repository URL to local Git repository
+1. Configure our details?
+2. Configure the repo?
 
-### Push changes to Github
-
-### Pull changes from Github
+### Push (upload) changes to Github
+### Pull (Donwload) changes from Githu
