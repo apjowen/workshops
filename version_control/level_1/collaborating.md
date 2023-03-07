@@ -1,12 +1,13 @@
 ## Collaborating
 
-1. Overview
-2. Create a Github account
-3. Connect local git repository to remote (Github) git repository
-4. Push (upload) changes to Github
-5. Pull (Donwload) changes from Github
+1. [Overview](#overview)
+2. [Create a Github account](#create-a-github-account)
+3. [Connect local git repository to remote (Github) git repository]()
+4. [Push (upload) changes to Github]()
+5. [Pull (Donwload) changes from Github]()
 
 ### Overview
+---
 Version control is useful because it allows you to keep track of changes to your code over time. This is particularly important when collaborating with others, as it enables multiple people to work on the same codebase without overwriting each other's changes.
 
 One popular version control system is Git, which is designed to be lightweight and easy to use. Git allows you to create a local repository on your computer, where you can track changes to your code, and then push those changes to a remote repository, such as GitHub, where you can collaborate with others.
@@ -17,7 +18,7 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 
 ### Create a Github account
-
+---
 1. Go to the GitHub website: https://github.com/
 
 2. Click the "Sign up" button in the top right corner of the page.
@@ -35,7 +36,7 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 8. Once you have verified your account, you will be taken to your GitHub dashboard. From here, you can explore GitHub's features, create new repositories, join or create organizations, and collaborate with other developers.
 
 ### Connect local git repository to remote (Github) git repository
-
+---
 **Create a remote remote (Github) git repository**
 
 1. To create a new repository on Github, click the green "New" button on the left-hand side of Github Dashboard.
@@ -54,4 +55,39 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 2. Configure the repo?
 
 ### Push (upload) changes to Github
-### Pull (Donwload) changes from Githu
+---
+1. Open Jupyter Notebook and navigate to your project directory in the file browser.
+
+2. Make sure your local changes have been committed by following the steps in the previous sections of this guide.
+
+3. Click on the "Git" plugin in the left-hand menu.
+
+4. Click the "Push" button to upload your changes to Github.
+
+5. You may be prompted to enter your Github login credentials if you haven't already done so.
+
+6. After successfully logging in, the plugin will start uploading your changes to the remote Github repository.
+
+7. Once the upload is complete, go to your Github repository page to verify that your changes have been successfully uploaded.
+
+If you encounter any issues while pushing your changes to Github, double-check that your local and remote repositories are properly connected.
+
+### Pull (Donwload) changes from Github
+---
+1. Open the Jupyter Notebook Git plugin and click on the "Pull" button in the left-hand menu.
+
+2. The plugin will then check for any changes in the remote repository that are not present in your local repository.
+
+3. If there are any changes, the plugin will display them in the "Changes" tab.
+
+4. Review the changes and make sure you understand what has been updated.
+
+5. If you are satisfied with the changes, click the "Merge" button to update your local repository with the changes from the remote repository.
+
+6. If there are conflicts between the changes in the remote and local repositories, the plugin will display a message indicating that a merge conflict has occurred.
+
+7. In this case, you will need to manually resolve the conflict by reviewing the changes and deciding which changes to keep and which to discard.
+
+8. Once you have resolved the conflicts, click the "Merge" button to update your local repository with the changes from the remote repository.
+
+Your local repository should now be updated with the latest changes from the remote repository.
