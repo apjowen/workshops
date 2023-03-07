@@ -7,5 +7,6 @@
 - [Collaborating](collaborating.md)
 - [Cloning and Forking](cloning-and-forking.md)
 - [Branches and Tags](branches-and-tags.md)
+- [Merging](merging.md)
 - [DOI Referencing](doi-referencing.md)
 - [Conclusion and Further Resources](conclusion-and-further-resources.md)
