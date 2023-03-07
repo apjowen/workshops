@@ -17,7 +17,7 @@
     <img align="center" src="img/file-browser.png" width="60%">
 </p>
 
-3. Create a new folder where you can store your project files by right-clicking in the File Browser window and selecting "New Folder".
+3. To create a new folder for storing your project files, right-click on the File Browser window and select "New Folder". Name the folder "hello_world".
 <p align="center">
     <img align="center" src="img/new-folder.png" width="60%">
 </p>
@@ -51,6 +51,8 @@ By following these steps, you have successfully created a new Git repository for
 ---
 
 ### Git Plugin
+
+The Git Plugin is a feature within Jupyter Notebook that allows you to manage Git repositories directly. It displays the current Git repository and branch you are working with, and shows the changes made to files in the repository grouped into three categories: "Staged," "Changed," and "Untracked." The plugin also provides options to initialize a new repository, commit changes, and push/pull changes to/from remote repositories.
 
 1. **Current Repository** and **Current Branch**
     - This tab displays the current Git repository and branch that you are working with in Jupyter Notebook.
