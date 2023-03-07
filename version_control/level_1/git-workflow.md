@@ -1,6 +1,7 @@
 ## Git Workflow
 
 ### Add files
+---
 1. Press `ctrl + shift + F`(Windows) to open the File Browser and double click the "hello_world" directory.
 <p align="center">
     <img align="center" src="img/hello-world-dir.png" width="60%">
@@ -33,11 +34,9 @@
     <img align="center" src="img/track-data-file.png" width="60%">
 </p>
 
-**Summary**
-
-You have successfully created a new file named "data.txt" and added some text to it. You have also started tracking changes to the file by adding it to the staging area in Git. This means that any changes you make to the file in the future will be tracked and you can use Git to manage those changes.
 
 ### Committing changes
+---
 
 1. Click the "Changes" tab in the Git plugin.
 <p align="center">
@@ -59,6 +58,7 @@ You have successfully created a new file named "data.txt" and added some text to
 </p>
 
 ### Viewing commit history
+---
 
 1. Click the "History" tab in the Git plugin.
     - You should see a list of commits, with the most recent one at the top.
@@ -73,9 +73,10 @@ You have successfully created a new file named "data.txt" and added some text to
 
   
 ### Add changes
+---
 1. Press `ctrl + shift + F`(Windows) to open the File Browser and double-click on the "hello_world" directory.
 <p align="center">
-    <img align="center" src="img/hello-world-dir-changes.png" width="60%">
+    <img align="center" src="img/hello-world-dir.png" width="60%">
 </p>
 
 2. Double click the file named "data.txt" and add change the text and press `ctrl + s` to save the file.
@@ -83,7 +84,7 @@ You have successfully created a new file named "data.txt" and added some text to
     <img align="center" src="img/data-file-updated.png" width="60%">
 </p>
 
-3. Click on the "Git" plugin in the left-hand menu and select the "Changes" tab. Here, you will see that "data.txt" is now listed under the "changed" tab.
+3. Click on the "Git" plugin in the left-hand menu and select the "Changes" tab. Here, you will see that "data.txt" is now listed under the "Changed" tab.
 <p align="center">
     <img align="center" src="img/data-file-modified.png" width="60%">
 </p>
@@ -100,20 +101,34 @@ You have successfully created a new file named "data.txt" and added some text to
     <img align="center" src="img/data-file-stage.png" width="60%">
 </p> 
 
+6 .Enter a commit message that describes the changes you are making in the "Commit" section.
+
+11. Click "Commit" to save the changes to your local Git repository.
 
 ### Ignoring files
+---
 
-1. Create a new file in your project directory and name it ".gitignore". Note that the filename starts with a period (".") and has no file extension.
+1. Press `ctrl + shift + F`(Windows) to open the File Browser and double-click on the "hello_world" directory.
+<p align="center">
+    <img align="center" src="img/hello-world-dir.png" width="60%">
+</p>
 
-2. Open the ".gitignore" file in a text editor.
+2. Create a new file in the directory and name it "config.ini". 
+<p align="center">
+    <img align="center" src="img/create-config-ini.png" width="60%">
+</p>
 
-3. Add the names of files or directories that you want to ignore, each on a new line. For example, if you want to ignore a file called "config.ini", add the following line to your .gitignore file: config.ini
+4. Click on the "Git" plugin in the left-hand menu and select the "Changes" tab. Here, you will see that "config.ini" is listed under the "Untracked" tab.
+<p align="center">
+    <img align="center" src="img/config-ini.png" width="60%">
+</p>
 
-4. Save the ".gitignore" file and exit the text editor.
+3. To notify git to ignore this file, right click the config.ini file and click 'Ignore this file'
+    - If you wish to ignore all .ini files, click 'Ignore .ini extension'
+<p align="center">
+    <img align="center" src="img/ignore-config-ini.png" width="60%">
+</p>
 
-5. Open the Git plugin in the left-hand menu of Jupyter Notebook.
-
-6. Click the "Changes" tab in the Git plugin.
 
 7. You should see your ".gitignore" file listed under the "Untracked Files" section.
 
@@ -121,10 +136,10 @@ You have successfully created a new file named "data.txt" and added some text to
 
 9. You should now see the ".gitignore" file listed under the "Staged Changes" section.
 
-10.Enter a commit message that describes the changes you are making in the "Commit" section.
+10 .Enter a commit message that describes the changes you are making in the "Commit" section.
 
 11. Click "Commit" to save the changes to your local Git repository.
 
-Summary:
+**Resources**
 
-Ignoring files in Git involves creating a ".gitignore" file in your project directory, adding the names of files or directories that you want to ignore to this file, and then committing the changes to your local repository.
+[A collection of useful .gitignore templates](https://github.com/github/gitignore)
