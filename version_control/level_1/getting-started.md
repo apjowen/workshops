@@ -1,5 +1,8 @@
 ## Getting Started
 
+1. [Creating a Git repository](creating-a-git-repository)
+2. [Git Plugin](git-plugin)
+
 ### Creating a Git repository
 
 1. Open [Jupyter Notebook](https://jupyter.bangor.ac.uk/jupyter) in your browser.
@@ -8,25 +11,18 @@
     <img align="center" src="img/jupyterhub-login.png" width="60%">
 </p>
 
-2. Press `ctrl + shift + F` (Windows) to open the File Browser.
+2. Open the File Browser by pressing `ctrl + shift + F` (Windows).
     - The File Browser is where you can navigate and manage files and folders on your system.
 <p align="center">
     <img align="center" src="img/file-browser.png" width="60%">
 </p>
 
-3. Right-click in the File Browser window and click "New Folder"
-    - This will create a new folder where you can store your project files.
+3. Create a new folder where you can store your project files by right-clicking in the File Browser window and selecting "New Folder".
 <p align="center">
     <img align="center" src="img/new-folder.png" width="60%">
 </p>
 
-4. Create a folder named "hello_world."
-    - Name your folder whatever you like, but for this tutorial, we will use "hello_world" as an example.
-<p align="center">
-    <img align="center" src="img/hello-world-folder.png" width="60%">
-</p>
-
-5. Double-click the newly created "hello_world" folder to open it.
+4. Double-click the newly created "hello_world" folder to open it.
 <p align="center">
     <img align="center" src="img/hello-world-folder-open.png" width="60%">
 </p>
@@ -37,7 +33,7 @@
     <img align="center" src="img/github-plugin.png" width="60%">
 </p>
 
-7. Click "Initialize a Repository."
+7. Click "Initialize a Repository" in the Git plugin menu.
     - This will create a new Git repository in your "hello_world" folder.
     - Initializing a repository is an important step in version control with Git. By initializing a repository, you are essentially telling Git to start tracking changes to your files and directories within that repository.
 <p align="center">
@@ -50,7 +46,11 @@
     <img align="center" src="img/initialized-repository.png" width="60%">
 </p>
 
-### Git Plugin View
+By following these steps, you have successfully created a new Git repository for your project in Jupyter Notebook. From here, you can start adding files to your repository and committing changes to track the progress of your project over time.
+
+---
+
+### Git Plugin
 
 1. **Current Repository** and **Current Branch**
     - This tab displays the current Git repository and branch that you are working with in Jupyter Notebook.
@@ -59,11 +59,9 @@
 2. **Changes**
     - This tab displays the changes that have been made to files in the current Git repository.
     - The changes are grouped into three categories: "**Staged**," "**Changed**," and "**Untracked**."
-    - Imagine you're a photographer taking a picture. Your camera represents Git, and the photograph you're taking represents the changes you're making to your project.
+        - **Untracked** changes can be compared to unfinished sketches or drafts that you're working on but haven't yet decided whether to incorporate into your final artwork. You may have ideas in your head or on paper, but they haven't been formally added to your project yet.
 
-        - **Untracked** changes are like the objects or people you haven't yet included in your photograph. They may be around you and part of the scene, but you haven't consciously decided to include them in your composition yet. Similarly, untracked changes are changes that you've made to your project, but Git isn't yet aware of them and they're not being tracked.
+        - **Changed** changes can be compared to preliminary versions of your artwork that you're in the process of refining. You've already started working on them and may have made significant progress, but they're not yet ready to be considered finished.
 
-        - **Changed** changes are like the objects or people you've decided to include in your photograph. You've made a conscious decision to include them, and you've adjusted the camera settings and composition to make sure they're captured in the way you want. Similarly, changed changes are changes that Git is aware of, but you haven't yet added them to the staging area.
-
-        - **Staged** changes are like the objects or people you've captured in your photograph and are now ready to develop. You've taken the picture and it's saved on your camera's memory card, waiting for you to develop it in the darkroom or edit it on your computer. Similarly, staged changes are changes that you've added to the Git staging area and are ready to be committed to the repository.
+        - **Staged** changes can be compared to the final version of your artwork that you've completed and are ready to display or share. You've put the finishing touches on it and are happy with how it looks, and now it's time to make it available to others. Similarly, staged changes are those that you've reviewed, finalized, and are ready to commit to the repository for others to see.
  
