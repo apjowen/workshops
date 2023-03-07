@@ -2,7 +2,7 @@
 
 ### Contents
 - [x] [Introduction to Version Control](introduction-to-version-control.md)
-- [Getting Started](getting-started.md)
+- [x] [Getting Started](getting-started.md)
 - [Git Workflow](git-workflow.md)
 - [Collaborating](collaborating.md)
 - [Cloning and Forking](cloning-and-forking.md)
