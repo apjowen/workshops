@@ -8,7 +8,7 @@
     <img align="center" src="img/jupyterhub-login.png" width="60%">
 </p>
 
-2. Press `ctrl + shift + F` to open the File Browser.
+2. Press `ctrl + shift + F` (Windows) to open the File Browser.
     - The File Browser is where you can navigate and manage files and folders on your system.
 <p align="center">
     <img align="center" src="img/file-browser.png" width="60%">
