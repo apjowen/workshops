@@ -86,7 +86,7 @@ Tracking files is an important step in the Git workflow because it allows you to
 ---
 1. Press `ctrl + shift + F`(Windows) to open the File Browser and double-click on the "hello_world" directory.
 <p align="center">
-    <img align="center" src="img/hello-world-dir.png" width="60%">
+    <img align="center" src="img/hello-world-folder.png" width="60%">
 </p>
 
 2. Double click the file named "data.txt" and add change the text and press `ctrl + s` to save the file.
@@ -126,7 +126,7 @@ Tracking files is an important step in the Git workflow because it allows you to
 ---
 1. Press `ctrl + shift + F` (Windows) to open the File Browser and double-click on the "hello_world" directory.
 <p align="center">
-    <img align="center" src="img/hello-world-dir.png" width="60%">
+    <img align="center" src="img/hello-world-folder.png" width="60%">
 </p>
 
 2. Create a new file in the directory and name it "config.ini".
@@ -147,14 +147,29 @@ Tracking files is an important step in the Git workflow because it allows you to
 </p>
 
 5. After ignoring the file, you should see a new file called ".gitignore" listed under the "Untracked Files" section in the "Changes" tab.
+<p align="center">
+    <img align="center" src="img/gitignore-untracked.png" width="60%">
+</p>
 
 6. Right-click on the ".gitignore" file and select "Track" to stage it for the next commit.
+<p align="center">
+    <img align="center" src="img/gitignore-tracked.png" width="60%">
+</p>
 
-7. You should now see the ".gitignore" file listed under the "Staged Changes" section in the "Changes" tab.
+7. You should now see the ".gitignore" file listed under the "Staged" section in the "Changes" tab.
+<p align="center">
+    <img align="center" src="img/gitignore-staged.png" width="60%">
+</p>
 
 8. Enter a commit message that describes the changes you are making in the "Commit" section.
+<p align="center">
+    <img align="center" src="img/gitignore-commit-message.png" width="60%">
+</p>
 
 9. Click "Commit" to save the changes to your local Git repository.
+<p align="center">
+    <img align="center" src="img/gitignore-commited.png" width="60%">
+</p>
 
 ### Resources
 ---
