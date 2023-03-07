@@ -22,13 +22,17 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 2. Click the "Sign up" button in the top right corner of the page.
 
-3. Enter your desired email address, password and username.
+3. Enter your desired email address, password, and username. Make sure to choose a strong password and a unique username that reflects your identity or your project.
 
-4. Click the "Create account" button.
+4. Select the plan that suits your needs. GitHub offers a free plan for public repositories and a paid plan for private repositories with advanced features.
 
-5. Verify account by entering the 8 digit code sent to your email address.
+5. Complete the "Captcha" verification to confirm that you are not a robot.
 
-7. Once you have verified your account you will be taken to your GitHub dashboard.
+6. Click the "Create account" button to create your account.
+
+7. Verify your account by entering the 8-digit code sent to your email address. This step is necessary to confirm your identity and prevent spam accounts.
+
+8. Once you have verified your account, you will be taken to your GitHub dashboard. From here, you can explore GitHub's features, create new repositories, join or create organizations, and collaborate with other developers.
 
 ### Connect local git repository to remote (Github) git repository
 
