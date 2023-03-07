@@ -4,7 +4,7 @@
 - [x] [Introduction to Version Control](introduction-to-version-control.md)
 - [x] [Getting Started](getting-started.md)
 - [x] [Git Workflow](git-workflow.md)
-- [Collaborating](collaborating.md)
+- [x] [Collaborating](collaborating.md)
 - [Cloning and Forking](cloning-and-forking.md)
 - [Branches and Tags](branches-and-tags.md)
 - [Merging](merging.md)
