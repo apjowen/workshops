@@ -27,19 +27,16 @@ Cloning refers to creating a copy of an existing repository. When you clone a re
     <img align="center" src="img/clone-github-url.png">
 </p>
 
-5. Then, enter the URL in the "Clone Repository" dialog box.
+5. Then, enter the URL in the "Clone a repo" dialog box.
 <p align="center">
     <img align="center" src="img/clone-github-url-jupyter.png" width="60%">
 </p>
 
 6. Click "Clone" and wait for the clone to complete.
-<p align="center">
-    <img align="center" src="img/clone-github-url-jupyter.png" width="60%">
-</p>
 
 7. Once the clone is complete, navigate to the "repos" directory where the repository was cloned to.
 <p align="center">
-    <img align="center" src="img/cloned-repo" width="60%">
+    <img align="center" src="img/cloned-repo.png" width="60%">
 </p>
 
 8. Make any changes to the project and stage them as necessary.
@@ -47,20 +44,25 @@ Cloning refers to creating a copy of an existing repository. When you clone a re
 9. Click on the Git plugin and select "Push" to push your changes to the remote repository.
 
 ### Forking
---
-Forking refers to creating a copy of an existing repository on your Github account. This allows you to have your own copy of the repository that you can modify and make changes to. You can use forking to start your own version of a project, to experiment with changes, or to contribute changes back to the original repository.
+---
 
-1. Navigate to the repository you want to fork on the GitHub website.
+Forking is a powerful tool that allows you to create your own copy of an existing repository on your GitHub account. You can use forking to experiment with changes, to start your own version of a project, or to contribute changes back to the original repository.
+
+1. Navigate to the [repository](https://github.com/issa16/test) you want to fork on the GitHub website.
 
 2. Click the "Fork" button in the top right corner of the repository page.
+<p align="center">
+    <img align="center" src="img/fork-button.png">
+</p>
 
-3. Select the account or organization where you want to fork the repository to.
+3. Review the settings for the Owner, Repository Name and Description and click the 'Create fork' button.
+<p align="center">
+    <img align="center" src="img/create-fork.png">
+</p>
 
 4. Once the repository has been forked, navigate to your own GitHub profile and locate the forked repository.
-Click on the Git plugin in the left-hand menu and select "Clone a Repository".
-Enter the URL of your forked repository and choose a local directory to clone it into.
-Click "Clone" and wait for the clone to complete.
-Once the clone is complete, navigate to the local directory where the repository was cloned to.
-Open the Jupyter Notebook and navigate to the forked project.
-Make any changes to the project and stage them as necessary.
-Click on the Git plugin and select "Push" to push your changes to your forked repository. If you want to contribute your changes to the original repository, you can create a pull request from your forked repository to the original repository.
+<p align="center">
+    <img align="center" src="img/forked.png">
+</p>
+
+5. After forking the repository, you can now clone the forked repository using the instructions provided in the previous section titled 'Cloning' and by using the URL of the forked repository on GitHub.
