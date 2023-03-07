@@ -74,7 +74,7 @@ Tracking files is an important step in the Git workflow because it allows you to
 </p>
 
 2. By reviewing the commit history, you can see the changes that were made to the repository over time, who made the changes, and when the changes were made.
- - This can help you track the progress of your project and understand how it has evolved.
+    - This can help you track the progress of your project and understand how it has evolved.
 
 3. Click on a specific commit to view more details about it, such as the commit message, the author, and the date and time it was committed.
     - This information can provide additional context about the changes that were made and help you troubleshoot any issues that arise.
@@ -91,7 +91,7 @@ Tracking files is an important step in the Git workflow because it allows you to
 
 2. Double click the file named "data.txt" and add change the text and press `ctrl + s` to save the file.
 <p align="center">
-    <img align="center" src="img/data-file-updated.png" width="60%">
+    <img align="center" src="img/data-file.png" width="60%">
 </p>
 
 3. Click on the "Git" plugin in the left-hand menu and select the "Changes" tab. Here, you will see that "data.txt" is now listed under the "Changed" tab.
@@ -111,9 +111,16 @@ Tracking files is an important step in the Git workflow because it allows you to
     <img align="center" src="img/data-file-stage.png" width="60%">
 </p> 
 
-6 .Enter a commit message that describes the changes you are making in the "Commit" section.
+6. Enter a commit message that describes the changes you are making in the "Commit" section.
 
-11. Click "Commit" to save the changes to your local Git repository.
+<p align="center">
+    <img align="center" src="img/data-file-changed-commmit-message.png" width="60%">
+</p> 
+
+7. Click "Commit" to save the changes to your local Git repository.
+<p align="center">
+    <img align="center" src="img/data-file-changed-commited.png" width="60%">
+</p> 
 
 ### Ignoring files
 ---
