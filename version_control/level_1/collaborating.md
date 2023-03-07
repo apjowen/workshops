@@ -23,23 +23,63 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 2. Click the "Sign up" button in the top right corner of the page.
 
-3. Enter your desired email address, password, and username. Make sure to choose a strong password and a unique username that reflects your identity or your project.
+3. Enter your desired email address, password, and username. 
+    - Make sure to choose a strong password and a unique username that reflects your identity or your project.
 
-4. Select the plan that suits your needs. GitHub offers a free plan for public repositories and a paid plan for private repositories with advanced features.
+4. Select the plan that suits your needs. 
+    - GitHub offers a free plan for public repositories and a paid plan for private repositories with advanced features.
 
 5. Complete the "Captcha" verification to confirm that you are not a robot.
 
 6. Click the "Create account" button to create your account.
 
-7. Verify your account by entering the 8-digit code sent to your email address. This step is necessary to confirm your identity and prevent spam accounts.
+7. Verify your account by entering the 8-digit code sent to your email address. 
+    - This step is necessary to confirm your identity and prevent spam accounts.
 
-8. Once you have verified your account, you will be taken to your GitHub dashboard. From here, you can explore GitHub's features, create new repositories, join or create organizations, and collaborate with other developers.
+8. Once you have verified your account, you will be taken to your GitHub dashboard. 
+  - From here, you can explore GitHub's features, create new repositories, join or create organizations, and collaborate with other developers.
+<p align="center">
+    <img align="center" src="img/github-dashboard.png">
+</p>
 
-### Connect local git repository to remote (Github) git repository
+### Create a personal access token on GitHub
 ---
-**Create a remote remote (Github) git repository**
+GitHub has recently updated its authentication policies and now requires users to provide a personal access token to access repositories via the command line or other third-party tools. This is to improve security and prevent unauthorized access to user accounts.
 
-1. To create a new repository on Github, click the green "New" button on the left-hand side of Github Dashboard.
+To create a personal access token on GitHub:
+
+1. Log in to your GitHub account and click on your profile icon in the top-right corner of the page.
+
+2. From the dropdown menu, click on "Settings" and then click on "Developer settings" in the left-hand menu.
+<p align="center">
+    <img align="center" src="img/github-settings.png">
+</p>
+
+3. In the developer settings page, click on "Personal access tokens" and then click on "Tokens (classic)".
+<p align="center">
+    <img align="center" src="img/github-tokens-classic.png">
+</p>
+
+4. Click the "Generate new token" button and select "Generate new token (classic).
+<p align="center">
+    <img align="center" src="img/github-new-token-classic.png">
+</p>
+
+5. Give your token a descriptive name and select the appropriate permissions for your use case.
+    - For this tutorial we will set the token to expire in 30 days and for the token to have full control of private repositories.
+<p align="center">
+    <img align="center" src="img/github-token-full-access.png">
+</p>
+
+5. Scroll down and click on the "Generate token" button.
+
+6. Once the token has been generated, copy it to a safe place, as you will not be able to see it again.
+
+You can now use this personal access token as your password when accessing GitHub repositories via the command line or other third-party tools.
+
+### Create a GitHub repository
+
+1. To create a new repository on Github, click the "New" button on the left-hand side of Github Dashboard.
 
 8. Give your repository a name and a brief description.
 
@@ -49,9 +89,13 @@ By connecting your local repository to GitHub, you make it easy to collaborate w
 
 11. Click the "Create repository" button.
 
-**Connect local git repository**
+<p align="center">
+    <img align="center" src="img/github-create-repo.png">
+</p>
 
-1. Configure our details?
+**Connect the local git repository to the remote Github repository**
+
+
 2. Configure the repo?
 
 ### Push (upload) changes to Github
