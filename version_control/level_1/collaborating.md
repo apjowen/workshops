@@ -50,9 +50,11 @@ Creating a GitHub repository is an important step in collaborating with others o
 
 1. To create a new repository on GitHub, navigate to the GitHub Dashboard and click the "New" button on the left-hand side.
 
-2. Give your repository a name and a brief description. Choose the "Public" option if you want to make the repository accessible to others.
+2. Give your repository a name and a brief description. 
 
-3. You can choose to initialize the repository with a README file, which can provide a brief introduction to your project. This step is optional.
+3. Choose the "Public" option if you want to make the repository accessible to others.
+
+4. You can choose to initialize the repository with a README file, which can provide a brief introduction to your project. This step is optional.
     - For our tutorial, only provide a repository name as we will be uploading code and data from our local repository.
     
 5. Click the "Create repository" button.
@@ -113,8 +115,8 @@ You can now use this personal access token as your password when accessing GitHu
     <img align="center" src="img/manage-remote-repo-details.png" width="60%">
 </p>
 
-4. Once you have added the remote repository, you should see it listed under the Existing Remotes heading. Ensure that all the details are correct and then close the window.
-    - If all looks good then close the window.
+4. Once you have added the remote repository, you should see it listed under the Existing Remotes heading. 
+    - Ensure that all the details are correct and then close the window.
 <p align="center">
     <img align="center" src="img/existing-remotes.png" width="60%">
 </p>
