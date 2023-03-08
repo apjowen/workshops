@@ -4,18 +4,27 @@ Branches and tags are important tools in Git that allow you to manage and organi
 
 Branches:
 
-Open the Jupyter Notebook Git plugin.
-Click on the "Branches" tab.
-Click the "New Branch" button.
-Enter a name for the new branch and click "Create Branch".
-The plugin will switch to the new branch and you can begin making changes to your code base.
+1. Open the Jupyter Notebook Git plugin.
+
+2. Click on the "Branches" tab.
+
+3. Click the "New Branch" button.
+
+4. Enter a name for the new branch and click "Create Branch".
+
+5. The plugin will switch to the new branch and you can begin making changes to your code base.
 
 
 Tags:
 
-Open the Jupyter Notebook Git plugin.
-Click on the "Tags" tab.
-Click the "New Tag" button.
-Enter a name for the new tag and select the commit you want to tag.
-Click "Create Tag" to create the tag.
-You can now use this tag to easily reference this specific commit in the future.
+1. Open the Jupyter Notebook Git plugin.
+
+2. Click on the "Tags" tab.
+
+3. Click the "New Tag" button.
+
+4. Enter a name for the new tag and select the commit you want to tag.
+
+5. Click "Create Tag" to create the tag.
+
+6. You can now use this tag to easily reference this specific commit in the future.
