@@ -1,7 +1,7 @@
 ## Getting Started
 
-1. [Creating a Git repository](creating-a-git-repository)
-2. [Git Plugin](git-plugin)
+1. [Creating a Git repository](#creating-a-git-repository)
+2. [Git Plugin](#git-plugin)
 
 ### Creating a Git repository
 
